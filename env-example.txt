@@ -1,0 +1,24 @@
+# Server Configuration
+PORT=3000
+NODE_ENV=development
+
+# Database Configuration
+MONGODB_URL=mongodb://localhost:27017/did_db
+
+# Blockchain Configuration
+BLOCKCHAIN_RPC_URL=http://localhost:8545
+CONTRACT_ADDRESS=0x...
+
+# Security
+ENCRYPTION_KEY=your-32-byte-encryption-key-in-hex
+JWT_SECRET=your-jwt-secret
+
+# Optional: Admin wallet for contract deployment
+ADMIN_PRIVATE_KEY=your-admin-wallet-private-key
+
+# Optional: Gas Price Settings
+GAS_PRICE=auto
+GAS_LIMIT=3000000
+
+# Logging
+LOG_LEVEL=debug
